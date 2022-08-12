@@ -1,0 +1,115 @@
+.load-icon div {
+    left: 94px;
+    top: 48px;
+    position: absolute;
+    animation: load-icon linear 1s infinite;
+    background: #220b09;
+    width: 12px;
+    height: 24px;
+    border-radius: 6px / 12px;
+    transform-origin: 6px 52px;
+  }
+
+  .load-icon div:nth-child(1) {
+    transform: rotate(0deg);
+    animation-delay: -0.9166666666666666s;
+    background: #220b09;
+  }
+
+  .load-icon div:nth-child(2) {
+    transform: rotate(30deg);
+    animation-delay: -0.8333333333333334s;
+    background: #d34c31;
+  }
+
+  .load-icon div:nth-child(3) {
+    transform: rotate(60deg);
+    animation-delay: -0.75s;
+    background: #e88432;
+  }
+
+  .load-icon div:nth-child(4) {
+    transform: rotate(90deg);
+    animation-delay: -0.6666666666666666s;
+    background: #ff312d;
+  }
+
+  .load-icon div:nth-child(5) {
+    transform: rotate(120deg);
+    animation-delay: -0.5833333333333334s;
+    background: #f5c037;
+  }
+
+  .load-icon div:nth-child(6) {
+    transform: rotate(150deg);
+    animation-delay: -0.5s;
+    background: #e89788;
+  }
+
+  .load-icon div:nth-child(7) {
+    transform: rotate(180deg);
+    animation-delay: -0.4166666666666667s;
+    background: #fd3262;
+  }
+
+  .load-icon div:nth-child(8) {
+    transform: rotate(210deg);
+    animation-delay: -0.3333333333333333s;
+    background: #f0c3a9;
+  }
+
+  .load-icon div:nth-child(9) {
+    transform: rotate(240deg);
+    animation-delay: -0.25s;
+    background: #9d9aca;
+  }
+
+  .load-icon div:nth-child(10) {
+    transform: rotate(270deg);
+    animation-delay: -0.16666666666666666s;
+    background: #645481;
+  }
+
+  .load-icon div:nth-child(11) {
+    transform: rotate(300deg);
+    animation-delay: -0.08333333333333333s;
+    background: #220b09;
+  }
+
+  .load-icon div:nth-child(12) {
+    transform: rotate(330deg);
+    animation-delay: 0s;
+    background: #d34c31;
+  }
+
+  .load-icon {
+    top: calc(50% - 4em);
+    left: calc(50% - 4em);
+    width: 6em;
+    height: 6em;
+    position: absolute;
+    transform: translateZ(0) scale(1);
+    backface-visibility: hidden;
+    transform-origin: 0 0;
+    /* see note above */
+  }
+
+  .load-icon div {
+    box-sizing: content-box;
+  }
+
+  .hide-icon {
+    display: none;
+  }
+
+
+
+  @keyframes load-icon {
+    0% {
+      opacity: 1
+    }
+
+    100% {
+      opacity: 0
+    }
+  }

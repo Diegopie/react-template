@@ -1,0 +1,111 @@
+.ProjModal-ParseText{
+    white-space: pre-wrap;
+      word-wrap: break-word;
+}
+
+.ProjModal-container {
+    /* display: flex; */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    /* height: 80vh; */
+    background-color: #5c5dbb;
+    border-radius: 2%;
+    margin: 1em;
+    overflow: auto;
+    transition: 350ms;
+}
+
+.ProjModal-close {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 1em;
+    padding-right: 0.8em;
+}
+
+.ProjModal-content {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    text-align: center;
+}
+
+.ProjModal-button {
+    background-color: #FFBD4B;
+    border: solid;
+    color: white;
+    border-radius: 20%;
+    padding: 0.4rem 0.9rem;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+}
+    .ProjModal-button:hover {
+        border-color: #A09EF0;
+        color: #A09EF0;
+        text-decoration: none;
+    }
+
+.ProjModal-img {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 20%;
+    margin-bottom: 2rem;
+}
+
+.ProjModal-icon-container {
+    /* position: relative; */
+    /* display: flex; */
+    flex-flow: column nowrap;
+}
+
+.ProjModal-icons {
+    margin: 0.8rem;
+    width: 5rem;
+}
+
+/* width */
+.ProjModal-container::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  .ProjModal-container::-webkit-scrollbar-track {
+    background: none;
+    
+  }
+  
+  /* Handle */
+  .ProjModal-container::-webkit-scrollbar-thumb {
+    background: rgb(212, 199, 199);
+  }
+  
+  /* Handle on hover */
+  .ProjModal-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+@media only screen and (min-width: 500px) {
+	.ProjModal-container {
+        width: 80vw;
+        transition: 350ms;
+    }
+
+    @media only screen and (min-width: 840px) {
+        .ProjModal-container {
+            width: 60vw;
+            max-width: 500px;
+            transition: 350ms;
+        }
+    }
+
+    @media only screen and (min-width: 1240px) {
+        .ProjModal-container {
+            width: 40vw;
+            transition: 350ms;
+        }
+    }
+}

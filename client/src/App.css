@@ -1,0 +1,71 @@
+body {
+  background-color: #A09EF0;
+  color: white;
+}
+
+  .darkMode {
+    background-color: #2A2C2E;
+  }
+
+.App-scrollLock {
+  overflow: hidden;
+}
+
+.App-backImg {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #5C5DB8;
+}
+
+.App-dropShadow {
+  filter: drop-shadow(3px 4px 2px #474747);
+}
+
+.App-backMaxHeight {
+  height: 100vh;
+}
+
+.App-zIndex-1 {
+  z-index: 1;
+}
+
+.App-zIndex-2 {
+  z-index: 2;
+}
+
+.App-backImg-1-light {
+  background-image: url("./assets/production/background-img/backImg-1-light.jpg");
+  min-height: 100vh;
+}
+  .App-backImg-1_1-light {
+    background-image: url("./assets/production/background-img/backImg-1-light.jpg");
+    min-height: 100vh;
+  }
+.App-backImg-1-dark {
+  background-image: url("./assets/production/background-img/backImg-1-dark.jpg");
+  min-height: 100vh;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(212, 199, 199);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
