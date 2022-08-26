@@ -5,8 +5,6 @@ async function db() {
         mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/hot-new-app', {
             useNewUrlParser: true,
             useUnifiedTopology: true,
-            useFindAndModify: false,
-            useCreateIndex: true
         })
         .then(() => {
             console.log('Successfully Connected To DB');

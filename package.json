@@ -1,9 +1,9 @@
 {
-  "name": "ibo-survey",
+  "name": "hot-new-app",
   "version": "0.0.1",
-  "description": "A digital version of WWG's Customer Survey",
+  "description": "app description",
   "engines": {
-    "node": "v14.15.4"
+    "node": "^16"
   },
   "main": "index.js",
   "scripts": {
